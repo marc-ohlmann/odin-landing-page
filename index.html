@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<!-- 
+    HTML5 doctype declaration
+    This tells the browser what version of HTML it
+    should use to render this document
+-->
+
+<!--
+    HTML element is the root element that all elements
+    exist within.
+
+    Setting the lang attribute is primarily used for
+    improving accessibility. For example, it allows
+    screen readers to adapt according to the language 
+    and invoke the correct pronounciation. The lang 
+    attribute can be assigned to individual elements 
+    as well.
+-->
+<html lang ="en">
+
+    <!--
+        head element is where we put important meta-info
+        about the webpage. 
+
+        Do not use any element that displays content on 
+        the page.
+    -->
+    <head>
+        <!--
+            setting the encoding ensures that the webpage will
+            display special symbols and characters from different
+            languages correctly in the broswer
+        -->
+        <meta charset="utf-8">
+
+        <!--
+            Text that appears on the browser tab
+            make it memorable for users that have lots of tabs!
+
+            This is also the text that appears during a google search
+        -->
+        <title>Template Home Page</title>
+
+        <!--
+            link to external css stylesheet
+        -->
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+
+    <!-- 
+        Body element
+        This is where all the content that will be displayed to
+        users will go.
+    -->
+    <body>
+
+        <!-- header -->
+        <div class="flex-container page-section header">
+            <div class="flex-container row-container left-header-links">
+                <div class="text title-text header-title-text">Header Logo</div>
+            </div>
+            <div class="flex-container row-container right-header-links">
+                <div><a class="text header-link-text" href="#">header link one</a></div>
+                <div><a class="text header-link-text" href="#">header link two</a></div>
+                <div><a class="text header-link-text" href="#">header link three</a></div>
+            </div>
+
+        </div>
+
+
+        <!-- top section -->
+        <div class="flex-container page-section top-section">
+            <div class="flex-container row-container top-section-row-container">
+                <div class="flex-container column-container top-section-column-container">
+                    <div class="text title-text top-title-text">
+                        This website is awesome
+                    </div>
+                    <div class="text top-subtitle-text">
+                        This website has some subtext that goes here under 
+                        the main title. It's a smaller font and the color 
+                        is lower contrast
+                    </div>
+                    <div>
+                        <button class="signup-button">
+                            <div class="text">Sign up</div>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex-container top-section-image-placeholder">
+                    <div class="top-section-image-placeholder-text">
+                        this is a placeholder for an image
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- info section -->
+        <div class="flex-container page-section info-section">
+            <div class="flex-container column-container info-container">
+                <div class="text title-text info-title-text">
+                    Some random information.
+                </div>
+                <div class="flex-container row-container info-card-container">
+
+                    <div class="flex-container column-container info-card">
+                        <div class="info-card-image"></div>
+                        <div class="text info-card-subtext">
+                            this is some subtext under an illustration or image
+                        </div>
+                    </div>
+
+                    <div class="flex-container column-container info-card">
+                        <div class="info-card-image"></div>
+                        <div class="text info-card-subtext">
+                            this is some subtext under an illustration or image
+                        </div>
+                    </div>
+
+                    <div class="flex-container column-container info-card">
+                        <div class="info-card-image"></div>
+                        <div class="text info-card-subtext">
+                            this is some subtext under an illustration or image
+                        </div>
+                    </div>
+
+                    <div class="flex-container column-container info-card">
+                        <div class="info-card-image"></div>
+                        <div class="text info-card-subtext">
+                            this is some subtext under an illustration or image
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- quote section -->
+        <div class="flex-container column-container page-section quote-section">
+            <div class="text quote-text">
+                This is an inspiring quote, or a testimonial from a
+                customer. Maybe it's just filling up space, or maybe
+                people will actually read it. Who knows? All I know
+                is that it looks nice.
+            </div>
+            <div class="text quote-name-text">-Thor, God of Thunder</div>
+
+        </div>
+
+
+        <!-- bottom section -->
+        <div class="flex-container page-section bottom-section">
+            <div class="flex-container bottom-section-modal-window">
+                <div class="flex-container row-container">
+                    <div class="flex-container column-container bottom-section-text-container">
+                        <div class="text bottom-section-text">
+                            Call to action! It's time!
+                        </div>
+                        <div class="text bottom-section-subtext">
+                            sign up for our product by clicking that button right over there!
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-container bottom-section-button-container">
+                    <button class="signup-button bottom-signup-button">
+                        <div class="text">Sign up</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <div class="flex-container page-section footer">
+            <div class="text footer-text">Copyright @ The Odin Project 2021</div>
+        </div>
+
+    </body>
+
+</html>
